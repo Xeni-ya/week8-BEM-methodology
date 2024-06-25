@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="body__bg">
+    <div class="body-bg">
 
         <header class="header">
             <div class="header__container">
@@ -18,9 +18,9 @@
                     <use xlink:href="./assets/image/sprite.svg#logo"></use>
                 </svg>
                 <button class="header__btn">
-                    <p class="header__btn_text">
+                    <p class="header__btn-text">
                         Корзина
-                        <img src="./assets/image/ico.svg" alt="basket" class="header__img_basket">
+                        <img src="./assets/image/ico.svg" alt="basket" class="header__img-basket">
                     </p>
                 </button>
             </div>
@@ -28,28 +28,37 @@
         
         <main class="main">
             <section class="main__section">
-                <h1 class="main__section_title">
+                <h1 class="main__title">
                     Виртуальная реальность без проводов
                 </h1>
-                <p class="main__section_text">
+                <p class="main__text">
                     Лучшее, что случалось с виртуальным миром в реальности. Новый компактный шлем без проводов и дорогих комьютеров.
                 </p>
-                <button class="main__section_buy">
-                    <a href="#" target="_blank" class="main__section_buy-link">Купить</a> 
+                <button class="main__btm-buy">
+                    <a href="#" target="_blank" class="main__btm-buy-link">Купить</a> 
                     <img src="./assets/image/card.svg" alt="card">
                 </button>                  
             </section>
         </main>
 
         <footer class="footer">
-            <div class="footer__container">
-                <a href="./assets/pages/another-pages.html" class="footer__container_link">Возможности</a>
-                <a href="#" class="footer__container_link">Где купить</a>
-                <a href="#" class="footer__container_link">Доставка</a>
-                <a href="#" class="footer__container_link">Помощь</a>
-            </div>
+            <nav class="menu">
+                <ul class="menu__items">
+                    <li class="menu__item">
+                        <a href="./assets/pages/another-pages.html" class="menu__link">Возможности</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Где купить</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Доставка</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Помощь</a>
+                    </li>
+                </ul>
+            </nav>
         </footer>
-
     </div>
 </body>
 </html>
