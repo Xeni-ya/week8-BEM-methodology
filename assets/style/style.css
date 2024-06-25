@@ -3,8 +3,8 @@
     src: url("../fonts/Inter-Regular.ttf") format("ttf");
     font-style: normal;
     font-weight: 400;
-
 }
+
 @font-face {
     font-family: "Roboto Slab", serif;
     src: url("../fonts/RobotoSlab-Light.ttf") format("ttf");
@@ -30,20 +30,23 @@ img {
     max-width: 100%;
 }
 
-body{
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    font-size: 60px;
-    line-height: 120%;
-    color: #000;
+.body__bg {
+    max-width: 1440px;
+    height: 900px;
+    padding: 0 10px;
+    margin: 0 auto;
+    background: url(../image/VR.png);
+    background-size: cover; /* Заполнение */
 }
+
+/* Блок header */
 
 .header {
     margin-top: 90px;
 }
 
-.container {
-    max-width: 1240px;
+.header__container {
+    max-width: 1440px;
     padding: 0 10px;
     margin: 0 auto;
     display: flex;
@@ -61,16 +64,92 @@ body{
     width: 115px;
     height: 38px;
     background-color: #5222D0;
-    color: #FFFFFF;
     border: none;
     border-radius: 100px;
 }
 
-.header__btn_text {
-    font-family: "Inter", sans-serif;
-    font-size: 12px;
-    
+.header__btn:hover {
+    background-color: #5322d0c6;
 }
 
-.header__img_basket {
+.header__btn_text {
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* Секция main  */
+
+.main {
+    grid-row: 2 / 3;
+}
+.main__section {
+    position: relative;
+    top: 10vh;
+}
+
+.main__section_title {
+    font-family: "Inter", sans-serif;
+    font-size: 60px;
+    color: #000;
+    width: 545px;
+    text-transform: uppercase;
+    margin-bottom: 4vh;
+}
+
+.main__section_text {
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    color: #000;
+    width: 487px;
+    margin-bottom: 4vh;
+}
+
+.main__section_buy {
+    width: 270px;
+    height: 84px;
+    background-color: #5222D0;
+    border: none;
+    border-radius: 100px;
+    position: relative;
+}
+
+.main__section_buy:hover {
+    background-color: #5322d0c6;
+}
+
+.main__section_buy-link {
+    font-size: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.main__section_img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Секция footer */
+.footer {
+    position: relative;
+    top: 25vh;
+    left: -2vh;
+}
+
+.footer__container {
+    max-width: 1440px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.footer__container_link {
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    color: #5222d0;
+    padding: 15px
+}
+
+.footer__container_link:hover {
+    color: #5322d0c6;
 }
