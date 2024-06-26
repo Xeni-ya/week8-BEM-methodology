@@ -1,3 +1,7 @@
+/* * {
+    outline: deeppink 1px solid;
+} */
+
 @font-face {
     font-family: "Inter", sans-serif;
     src: url("../fonts/Inter-Regular.ttf") format("ttf");
@@ -85,6 +89,65 @@ img {
     width: 545px;
     text-transform: uppercase;
     margin-bottom: 4vh;
+}
+
+.main__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main__content {
+    width: 365px;
+}
+
+.main__content-img {
+    width: 365px;
+    height: 278px;
+}
+
+.main__content-title {
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    color: #000;
+}
+
+.main__content-text {
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    color: #000;
+}
+
+.main__form {
+    width: 365px;
+    height: 233px;
+    background: #ec615b;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.main__form-title {
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+.main__form-input {
+    width: 323px;
+    height: 50px;
+    border: none;
+}
+.main__form-submit {
+    width: 135px;
+    height: 38px;
+    background-color: #5222D0;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+.main__form-submit:hover {
+    background-color: #5322d0c6;
 }
 
 /* Секция footer */
