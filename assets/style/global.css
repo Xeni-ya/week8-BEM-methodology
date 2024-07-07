@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url("../fonts/Inter-Regular.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 400;
+  }
+  
+  @font-face {
+  font-family: "Roboto Slab", serif;
+  src: url("../fonts/RobotoSlab-Light.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 300;
+  }
+  
+  html {
+  box-sizing: border-box;
+  }
+  
+  *,
+  *::before
+  *::after {
+  box-sizing: inherit;
+  }
+  
+  a {
+  text-decoration: none;
+  }
+  
+  img {
+  max-width: 100%;
+  }
