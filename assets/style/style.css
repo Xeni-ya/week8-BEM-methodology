@@ -128,14 +128,11 @@
     list-style: none;
 }
 
-.menu__link {
-    font-family: "Roboto Slab", serif;
-    font-size: 20px;
+.menu__link_blue {
     color: #5222d0;
-    padding: 15px
 }
-
-.menu__link:hover {
+    
+.menu__link_blue:hover {
     color: #5322d0c6;
 }
 
