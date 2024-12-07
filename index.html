@@ -1,66 +1,69 @@
 <!DOCTYPE html>
 <html lang="ru">
-    
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style/style.css">
-    <link rel="shortcut icon" href="./assets/image/sign.svg" type="image/svg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style/global.css" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <link rel="shortcut icon" href="./assets/image/sign.svg" type="image/svg" />
     <title>Методология БЭМ</title>
-</head>
-
-<body>
-    <!-- Исходник: https://www.figma.com/design/1aO5tnzg8Fzrc40RsBG1EF/VR-(Copy)?node-id=1-385&t=2nECqs6ZDHGxtrTH-0 -->
+  </head>
+  width: 50%;
+  <body>
     <div class="body-bg">
+      <header class="header">
+        <div class="header__container">
+          <svg class="header__logo">
+            <use xlink:href="./assets/image/sprite.svg#logo"></use>
+          </svg>
+          <button class="header__btn">
+            <p class="header__btn-text">
+              Корзина
+              <img
+                src="./assets/image/ico.svg"
+                alt="basket"
+                class="header__img-basket"
+              />
+            </p>
+          </button>
+        </div>
+      </header>
 
-        <header class="header">
-            <div class="header__container">
-                <svg class="header__logo">
-                    <use xlink:href="./assets/image/sprite.svg#logo"></use>
-                </svg>
-                <button class="header__btn">
-                    <p class="header__btn-text">
-                        Корзина
-                        <img src="./assets/image/ico.svg" alt="basket" class="header__img-basket">
-                    </p>
-                </button>
-            </div>
-        </header>
-        
-        <main class="main">
-            <section class="main__section">
-                <h1 class="main__title">
-                    Виртуальная реальность без проводов
-                </h1>
-                <p class="main__text">
-                    Лучшее, что случалось с виртуальным миром в реальности. Новый компактный шлем без проводов и дорогих комьютеров.
-                </p>
-                <button class="main__btm-buy">
-                    <a href="#" target="_blank" class="main__btm-buy-link">Купить</a> 
-                    <img src="./assets/image/card.svg" alt="card">
-                </button>
-                <img src="./assets/image/guy.svg" alt="guy" class="main__img-guy">
-            </section>
-        </main>
+      <main class="main">
+        <section class="main__section">
+          <h1 class="main__title">Виртуальная реальность без проводов</h1>
+          <p class="main__text">
+            Лучшее, что случалось с виртуальным миром в реальности. Новый
+            компактный шлем без проводов и дорогих комьютеров.
+          </p>
+          <button class="main__btm-buy">
+            <a href="#" target="_blank" class="main__btm-buy-link">Купить</a>
+            <img src="./assets/image/card.svg" alt="card" />
+          </button>
+          <img src="./assets/image/guy.svg" alt="guy" class="main__img-guy" />
+        </section>
+      </main>
 
-        <footer class="footer">
-            <nav class="menu">
-                <ul class="menu__items">
-                    <li class="menu__item">
-                        <a href="another-pages.html" class="menu__link_blue">Возможности</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link_blue">Где купить</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link_blue">Доставка</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link_blue">Помощь</a>
-                    </li>
-                </ul>
-            </nav>
-        </footer>
+      <footer class="footer">
+        <nav class="menu">
+          <ul class="menu__items">
+            <li class="menu__item">
+              <a href="another-pages.html" class="menu__link menu__link_blue"
+                >Возможности</a
+              >
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link menu__link_blue">Где купить</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link menu__link_blue">Доставка</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link menu__link_blue">Помощь</a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
     </div>
-</body>
+  </body>
 </html>

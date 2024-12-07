@@ -123,7 +123,7 @@
 
 .footer {
     position: relative;
-    top: 24vh;
+    top: 6vh;
     left: -6vh;
     max-width: 1440px;
     padding: 0 10px;
@@ -142,15 +142,4 @@
 
 .menu__item {
     list-style: none;
-}
-
-.menu__link {
-    font-family: "Roboto Slab", serif;
-    font-size: 20px;
-    color: #000000;
-    padding: 15px
-}
-
-.menu__link:hover {
-    color: #0000008f;
 }
